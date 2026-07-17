@@ -339,7 +339,7 @@ function HomeContent() {
           <img
             src="/logo.png"
             alt="Ready Steady Go"
-            className="w-40 h-40 md:w-52 md:h-52 rounded-full shadow-xl shadow-black/40 object-contain"
+            className="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl shadow-black/40 object-contain"
           />
           <div className="space-y-3">
             <p className="text-[#8B93A7] text-xs md:text-sm tracking-[5px] uppercase font-semibold">CAMP · SCOREBOARD</p>
