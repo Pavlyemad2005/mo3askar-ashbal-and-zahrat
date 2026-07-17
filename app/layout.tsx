@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "2ad eltahady",
+  title: "Scoring system ",
   description: " Camp Scoreboard",
 };
 
