@@ -336,17 +336,13 @@ function HomeContent() {
       {/* HOME VIEW */}
       {view === 'home' && (
         <div className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center p-6 gap-8">
-          <div className="w-20 h-20 rounded-2xl bg-[#131C30] border border-[#26314D] flex items-center justify-center shadow-xl shadow-black/40">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-[#2EC46D]">
-              <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
-              <polyline points="16 7 22 7 22 13"></polyline>
-            </svg>
-          </div>
+          <img
+            src="/logo.png"
+            alt="Ready Steady Go"
+            className="w-40 h-40 md:w-52 md:h-52 rounded-full shadow-xl shadow-black/40 object-contain"
+          />
           <div className="space-y-3">
-            <h1 className="font-heading text-5xl md:text-7xl tracking-wider uppercase">
-              READY STEADY <span className="text-[#2EC46D]">GO</span>
-            </h1>
-            <p className="text-[#8B93A7] text-xs md:text-sm tracking-[5px] uppercase font-semibold">SPORTS CAMP · SCOREBOARD</p>
+            <p className="text-[#8B93A7] text-xs md:text-sm tracking-[5px] uppercase font-semibold">CAMP · SCOREBOARD</p>
           </div>
           <button onClick={() => navigate('groups', null)} className="bg-[#2EC46D] text-[#06301A] font-heading text-lg tracking-wide px-10 py-3.5 rounded-full shadow-[0_0_25px_rgba(46,196,109,0.3)] hover:scale-105 transition-all cursor-pointer">
             Start ⟶
